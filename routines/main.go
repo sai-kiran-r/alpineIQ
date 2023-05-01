@@ -66,7 +66,7 @@ func GetNikeProductIDs() (out []string) {
 	for i := 0; i < 100; i += 10 {
 		out = append(out, fmt.Sprintf("%d_%s", i, "nike"))
 	}
-	//fmt.Println("nike")
+	//fmt.Println("nike", out)
 	return out
 }
 
@@ -74,7 +74,7 @@ func GetAdidasProductIDs() (out []string) {
 	for i := 0; i < 100; i += 5 {
 		out = append(out, fmt.Sprintf("%d_%s", i, "adidas"))
 	}
-	//fmt.Println("adidas")
+	//fmt.Println("adidas", out)
 	return out
 }
 
@@ -82,6 +82,6 @@ func GetPumaProductIDs() (out []string) {
 	for i := 0; i < 100; i += 2 {
 		out = append(out, fmt.Sprintf("%d_%s", i, "puma"))
 	}
-	//fmt.Println("puma")
+	//fmt.Println("puma", out)
 	return out
 }
